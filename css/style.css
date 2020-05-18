@@ -1,0 +1,21 @@
+.pcolor {
+    color: #2e44c2;
+}
+
+p {
+    color: #d60101;
+}
+.mybtn {
+    padding: 5px 10px;
+    border: 1px #cccccc solid;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333333;
+}
+
+.mybtn.danger {
+    background-color: #ff6666;
+    color: white;
+}
