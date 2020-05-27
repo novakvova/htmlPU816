@@ -1,0 +1,84 @@
+.wrapper-product {
+    display: flex;
+    justify-content: center;
+
+    > div {
+        //background-color: #aeec3b;
+        width: 100%;
+        margin: 10px;
+    }
+    .col-img {
+        //background-color: #52b3f3;
+        display: flex;
+
+        > div {
+            width: 100%;
+        }
+        .left-panel {
+            width: 30%;
+            .one-min {
+                margin-top: 10px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                > .col-v {
+                    //background-color: #f1f1f1;
+                    width: 100px;
+                    margin: 10px;
+                    text-align: center;
+                    line-height: 75px;
+                    font-size: 30px;
+                    position: relative;
+
+                    a {
+                        margin-left: 15px;
+                        display: table-cell;
+                        &.active {
+                            color: #66ff43;
+                            border-bottom: solid;
+                        }
+                    }
+                    img {
+                        margin: 10px;
+                        //vertical-align: bottom;
+                        border-style: none;
+                        max-width: 100%;
+                        height: auto;
+                        width: 80%;
+                     }
+                }
+            }
+        }
+
+        .rignt-panel {
+            display: flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content: center;
+            .content {
+                .img-info {
+                    align-self: center;
+                    // display: flex;
+                    padding: 20px;
+                    position: relative;
+                    .info {
+                        position: absolute;
+                        left:0;
+                        top:50px;
+                        color: red;
+                        background-color: green;
+                    }
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                        width: 100%;
+                    }
+                }
+
+            }
+            //width: 30%;
+            
+        }
+    }
+}

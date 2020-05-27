@@ -311,6 +311,114 @@ header.masthead .post-heading .meta a {
   }
 }
 
+.wrapper-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper-product > div {
+  width: 100%;
+  margin: 10px;
+}
+
+.wrapper-product .col-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper-product .col-img > div {
+  width: 100%;
+}
+
+.wrapper-product .col-img .left-panel {
+  width: 30%;
+}
+
+.wrapper-product .col-img .left-panel .one-min {
+  margin-top: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper-product .col-img .left-panel .one-min > .col-v {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  position: relative;
+}
+
+.wrapper-product .col-img .left-panel .one-min > .col-v a {
+  margin-left: 15px;
+  display: table-cell;
+}
+
+.wrapper-product .col-img .left-panel .one-min > .col-v a.active {
+  color: #66ff43;
+  border-bottom: solid;
+}
+
+.wrapper-product .col-img .left-panel .one-min > .col-v img {
+  margin: 10px;
+  border-style: none;
+  max-width: 100%;
+  height: auto;
+  width: 80%;
+}
+
+.wrapper-product .col-img .rignt-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper-product .col-img .rignt-panel .content .img-info {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 20px;
+  position: relative;
+}
+
+.wrapper-product .col-img .rignt-panel .content .img-info .info {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  color: red;
+  background-color: green;
+}
+
+.wrapper-product .col-img .rignt-panel .content .img-info img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
 footer {
   padding: 50px 0 65px;
 }
