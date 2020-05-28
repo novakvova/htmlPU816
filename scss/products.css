@@ -419,6 +419,16 @@ header.masthead .post-heading .meta a {
   width: 100%;
 }
 
+.lb-data .lb-number {
+  display: none;
+  visibility: hidden;
+}
+
+.lb-data .lb-number {
+  display: none;
+  visibility: hidden;
+}
+
 footer {
   padding: 50px 0 65px;
 }
